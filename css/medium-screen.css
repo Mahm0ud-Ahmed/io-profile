@@ -1,0 +1,19 @@
+.services .container {
+  padding-left: 0;
+}
+
+.services .container .services-items {
+  flex-basis: 100%;
+}
+.services .container .services-img {
+  display: none;
+}
+
+.about .container .about-img {
+  margin-left: 0;
+}
+
+.about .container .about-content {
+  margin-right: 0;
+}
+

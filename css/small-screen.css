@@ -1,0 +1,67 @@
+.drawer{
+  display: block;
+}
+
+.links{
+  display: none;
+}
+
+section .container .item{
+  margin-bottom: 0px;
+}
+
+.new-section > h2{
+  font-size: 8rem;
+}
+
+.new-section > p{
+  font-size: 1.5rem;
+  margin-top: -24px;
+}
+
+.services .container{
+  padding-left: 0;
+}
+
+section .container .item:last-child{
+  margin-bottom: 28px;
+}
+
+.services .container .services-items{
+  flex-basis: 100%;
+}
+.services .container .services-img{
+  display: none;
+}
+
+.service-item{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio .container{
+  flex-direction: column;
+}
+
+.about .container .about-img{
+  display: none;
+}
+
+.about .container .about-content{
+  margin-right: 0;
+}
+
+.about + .new-section{
+  padding-bottom: 0;
+}
+
+.contact .h1{
+  font-size: 2rem;
+}
+
+.contact h2:not(:first-child){
+  font-size: 2rem;
+  margin-left: 0;
+}
